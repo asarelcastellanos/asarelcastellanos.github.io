@@ -11,13 +11,23 @@
         <h1 class="px-5 text-white hover:text-[#dad7cd]">Asarel's Website</h1>
         <ul class="flex">
           <a class="px-2 text-white hover:text-[#dad7cd]" href="index.html"><li>Home</li></a>
-          <!-- <a class="px-2 text-white hover:text-[#dad7cd]" href="about.html"><li>About</li></a> -->
+          <a class="px-2 text-white hover:text-[#dad7cd]" href="blog.html"><li>Blog</li></a>
           <a class="px-2 text-white hover:text-[#dad7cd]" href="portfolio.html"><li>Portfolio</li></a>
           <a class="px-2 text-white hover:text-[#dad7cd]" href="resume.html"><li>Resume</li></a>
           <a class="px-2 text-white hover:text-[#dad7cd]" href="contact.html"><li>Contact</li></a>
         </ul>
       </nav>
-      <main></main>
+      <main class="container mx-auto">
+        <form>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" value="Asarel"><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" value="Castellanos"><br>
+          <label for="message">Message:</label>
+          <input type="text" id="message" name="message" value="Some awesome message here!"><br>
+          <input class="bg-[#588157] px-10 py-2.5 text-white" type="submit" value="Submit">
+        </form>
+      </main>
       <footer class="bg-[#344e41]">
         <p class="text-center text-white">
           &copy; Asarel's Website | All Rights Reserved
