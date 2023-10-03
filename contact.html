@@ -17,15 +17,17 @@
           <a class="px-2 text-white hover:text-[#dad7cd]" href="contact.html"><li>Contact</li></a>
         </ul>
       </nav>
-      <main class="container mx-auto">
-        <form>
-          <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname" value="Asarel"><br>
-          <label for="lname">Last name:</label>
-          <input type="text" id="lname" name="lname" value="Castellanos"><br>
+      <main class="bg-[#dad7cd]">
+        <form class="container mx-auto flex flex-col justify-center items-center h-screen">
+          <label for="fname">First Name:</label>
+          <input class="w-[500px]" type="text" id="fname" name="fname" value="Asarel"><br>
+          <label for="lname">Last Name:</label>
+          <input class="w-[500px]" type="text" id="lname" name="lname" value="Castellanos"><br>
           <label for="message">Message:</label>
-          <input type="text" id="message" name="message" value="Some awesome message here!"><br>
-          <input class="bg-[#588157] px-10 py-2.5 text-white" type="submit" value="Submit">
+          <textarea class="h-[100px] w-[500px]" id="message" name="message">
+            Some awesome message here!
+          </textarea>
+          <input class="bg-[#588157] px-10 py-2.5 text-white mt-10 w-[500px]" type="submit" value="Submit">
         </form>
       </main>
       <footer class="bg-[#344e41]">
